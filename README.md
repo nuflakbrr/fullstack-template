@@ -25,17 +25,17 @@
 
 ## Teknologi Yang Digunakan
 
--   [Laravel](https://laravel.com/)
--   [Tailwindcss](https://tailwindcss.com/)
--   [PanPHP](https://github.com/panphp/pan)
--   [Laravel SEO](https://github.com/ralphjsmit/laravel-seo)
--   [Solo for Laravel](https://github.com/aarondfrancis/solo)
--   [Filament](https://filamentphp.com/)
--   [Filament Pan Analytics](https://filamentphp.com/plugins/tallyschmeits-pan-analytics-widget)
--   [Filament Sort Order](https://filamentphp.com/plugins/ibrahim-bougaoua-sort-order)
--   [Filament Umami Analytics](https://filamentphp.com/plugins/tallyschmeits-umami-widgets)
--   [Filament SEO](https://filamentphp.com/plugins/ralphjsmit-seo)
--   [Filament Spatie Media Library](https://filamentphp.com/plugins/filament-spatie-media-library)
+- [Laravel](https://laravel.com/)
+- [Tailwindcss](https://tailwindcss.com/)
+- [PanPHP](https://github.com/panphp/pan)
+- [Laravel SEO](https://github.com/ralphjsmit/laravel-seo)
+- [Solo for Laravel](https://github.com/aarondfrancis/solo)
+- [Filament](https://filamentphp.com/)
+- [Filament Pan Analytics](https://filamentphp.com/plugins/tallyschmeits-pan-analytics-widget)
+- [Filament Sort Order](https://filamentphp.com/plugins/ibrahim-bougaoua-sort-order)
+- [Filament Umami Analytics](https://filamentphp.com/plugins/tallyschmeits-umami-widgets)
+- [Filament SEO](https://filamentphp.com/plugins/ralphjsmit-seo)
+- [Filament Spatie Media Library](https://filamentphp.com/plugins/filament-spatie-media-library)
 
 ## Mulai Sekarang
 
@@ -184,19 +184,19 @@ Template ini tersedia di BikinProject! Cara bagaimana untuk menggunakan template
 
 Anda dapat mengikuti langkah-langkah di bawah ini untuk menginstal starter kit atau Anda cukup menjalankan `bash install.sh` untuk menginstalnya.
 
--   Klona repositori ini
+- Klona repositori ini
 
 ```bash
 $ npx degit nuflakbrr/fullstack-template#laravel-filament <name_of_project>
 ```
 
--   Jalankan perintah berikut untuk menginstal dependensi
+- Jalankan perintah berikut untuk menginstal dependensi
 
 ```bash
 $ composer install
 ```
 
--   Jalankan perintah berikut untuk instalasi starter kit
+- Jalankan perintah berikut untuk instalasi starter kit
 
 ```bash
 $ php artisan bikinproject:install
@@ -204,19 +204,19 @@ $ php artisan bikinproject:install
 
 #### Windows
 
--   Klona repositori ini
+- Klona repositori ini
 
 ```bash
 $ npx degit nuflakbrr/fullstack-template#laravel-filament <name_of_project>
 ```
 
--   Jalankan perintah berikut untuk menginstal dependensi
+- Jalankan perintah berikut untuk menginstal dependensi
 
 ```bash
 $ composer install --ignore-platform-reqs
 ```
 
--   Jalankan perintah berikut untuk instalasi starter kit
+- Jalankan perintah berikut untuk instalasi starter kit
 
 ```bash
 $ php artisan bikinproject:install
@@ -224,27 +224,27 @@ $ php artisan bikinproject:install
 
 Berikut ini adalah inti dari skrip `install.sh`:
 
--   Menginstal paket Composer yang dibutuhkan (`composer install`)
--   Menjalankan skrip artisan khusus (`php artisan bikinproject:install`)
--   Menyiapkan lingkungan (file .env)
--   Menginstal dependensi Node.js
--   Membuat kunci aplikasi
--   Menawarkan untuk menjalankan migrasi basis data
--   Mengonfigurasi nama dan URL proyek
--   Menawarkan untuk menghapus file instalasi
--   Memberikan petunjuk untuk memulai server pengembangan lokal
+- Menginstal paket Composer yang dibutuhkan (`composer install`)
+- Menjalankan skrip artisan khusus (`php artisan bikinproject:install`)
+- Menyiapkan lingkungan (file .env)
+- Menginstal dependensi Node.js
+- Membuat kunci aplikasi
+- Menawarkan untuk menjalankan migrasi basis data
+- Mengonfigurasi nama dan URL proyek
+- Menawarkan untuk menghapus file instalasi
+- Memberikan petunjuk untuk memulai server pengembangan lokal
 
 ## Tentang Laravel
 
 Laravel adalah kerangka kerja aplikasi web dengan sintaksis yang ekspresif dan elegan. Kami percaya bahwa pengembangan harus menjadi pengalaman yang menyenangkan dan kreatif agar benar-benar memuaskan. Laravel menghilangkan kesulitan dalam pengembangan dengan memudahkan tugas-tugas umum yang digunakan dalam banyak proyek web, seperti:
 
--   [Mesin perutean yang sederhana dan cepat](https://laravel.com/docs/routing).
--   [Kontainer injeksi dependensi yang kuat](https://laravel.com/docs/container).
--   Beberapa back-end untuk penyimpanan [session](https://laravel.com/docs/session) dan [cache](https://laravel.com/docs/cache).
--   [ORM basis data](https://laravel.com/docs/eloquent) yang ekspresif dan intuitif.
--   [Migrasi skema](https://laravel.com/docs/migrations) yang tidak bergantung pada basis data.
--   [Pemrosesan pekerjaan latar belakang yang tangguh](https://laravel.com/docs/queues).
--   [Penyiaran peristiwa secara real-time](https://laravel.com/docs/broadcasting).
+- [Mesin perutean yang sederhana dan cepat](https://laravel.com/docs/routing).
+- [Kontainer injeksi dependensi yang kuat](https://laravel.com/docs/container).
+- Beberapa back-end untuk penyimpanan [session](https://laravel.com/docs/session) dan [cache](https://laravel.com/docs/cache).
+- [ORM basis data](https://laravel.com/docs/eloquent) yang ekspresif dan intuitif.
+- [Migrasi skema](https://laravel.com/docs/migrations) yang tidak bergantung pada basis data.
+- [Pemrosesan pekerjaan latar belakang yang tangguh](https://laravel.com/docs/queues).
+- [Penyiaran peristiwa secara real-time](https://laravel.com/docs/broadcasting).
 
 Laravel mudah diakses, canggih, dan menyediakan alat yang dibutuhkan untuk aplikasi yang besar dan tangguh.
 
