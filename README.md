@@ -1,66 +1,266 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+## BikinProject: Laravel + Filament Starter Kit
 
 <p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github.com/nuflakbrr/bikinproject/blob/main/assets/BikinProject.jpg?raw=true">
+    <source media="(prefers-color-scheme: light)" srcset="https://github.com/nuflakbrr/bikinproject/blob/main/assets/BikinProject.jpg?raw=true">
+    <img alt="Banner TTN" src="https://github.com/nuflakbrr/bikinproject/blob/main/assets/BikinProject.jpg?raw=true">
+  </picture>
 </p>
 
-## About Laravel
+<p align="center">
+  <a href="https://badge.fury.io/js/bikinproject.svg">
+    <img src="https://badge.fury.io/js/bikinproject.svg" alt="NPM Verion">
+  </a>
+  <a href="https://www.npmjs.com/package/bikinproject">
+    <img src="https://img.shields.io/npm/dt/bikinproject" alt="NPM Downloads">
+  </a>
+  <a href="https://www.npmjs.com/package/bikinproject">
+    <img src="https://img.shields.io/npm/l/bikinproject" alt="NPM License">
+  </a>
+</p>
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+> [!TIP]
+> Untuk memulai dan menjalankannya dengan cepat, klon repo ini dan jalankan `bash install.sh` (khusus Linux / Mac) di direktori kloning Anda.
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+## Teknologi Yang Digunakan
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+-   [Laravel](https://laravel.com/)
+-   [Tailwindcss](https://tailwindcss.com/)
+-   [PanPHP](https://github.com/panphp/pan)
+-   [Laravel SEO](https://github.com/ralphjsmit/laravel-seo)
+-   [Solo for Laravel](https://github.com/aarondfrancis/solo)
+-   [Filament](https://filamentphp.com/)
+-   [Filament Pan Analytics](https://filamentphp.com/plugins/tallyschmeits-pan-analytics-widget)
+-   [Filament Sort Order](https://filamentphp.com/plugins/ibrahim-bougaoua-sort-order)
+-   [Filament Umami Analytics](https://filamentphp.com/plugins/tallyschmeits-umami-widgets)
+-   [Filament SEO](https://filamentphp.com/plugins/ralphjsmit-seo)
+-   [Filament Spatie Media Library](https://filamentphp.com/plugins/filament-spatie-media-library)
 
-## Learning Laravel
+## Mulai Sekarang
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+### BikinProject
 
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
+Template ini tersedia di BikinProject! Cara bagaimana untuk menggunakan template ini, ikuti langkah-langkah sederhana berikut:
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+1. **Instal BikinProject**: Mulailah dengan menginstal BikinProject di komputer Anda.
 
-## Laravel Sponsors
+```bash
+  npx bikinproject@latest
+```
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
+2. **Beritahu BikinProject Tempat Membuat Proyek**: Masukkan direktori tempat Anda ingin membuat proyek.
 
-### Premium Partners
+```bash
+  ┌   create-bikinproject-app
+  │
+  ◇  Where should we create your project?
+  └  ./your-project # Masukkan nama proyek Anda, seperti my-project atau .
+```
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[WebReinvent](https://webreinvent.com/)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
-- **[Jump24](https://jump24.co.uk)**
-- **[Redberry](https://redberry.international/laravel/)**
-- **[Active Logic](https://activelogic.com)**
-- **[byte5](https://byte5.de)**
-- **[OP.GG](https://op.gg)**
+3. **Pilih Proyek Starter**: Pilih proyek permulaan yang sesuai dengan kebutuhan Anda.
 
-## Contributing
+```
+  ┌   create-bikinproject-app
+  │
+  ◇  Where should we create your project?
+  │  ./your-project
+  │
+  ◇  Pick a project type within "./your-project"
+  │  ● Laravel Breeze API w/ Next.js App Router (Tailwind + TypeScript)
+  │  ○ Laravel Breeze API w/ Next.js App Router (Tailwind + JavaScript)
+  │  ○ Laravel + Filament
+  │  ○ dll.
+  └  # Pilih jenis proyek dengan menggunakan tombol panah
+```
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+4. **Tunggu BikinProject Membuat Proyek**: Tunggu BikinProject membuat proyek untuk Anda.
 
-## Code of Conduct
+```
+  ┌   create-bikinproject-app
+  │
+  ◇  Where should we create your project?
+  │  ./your-project
+  │
+  ◇  Pick a project type within "./your-project"
+  │  Laravel + Filament
+  │
+  ◇  ⏳ Creating project...
+```
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+5. **Pilih sertakan instal dependensi**: Pilih untuk menginstal dependensi atau tidak.
 
-## Security Vulnerabilities
+> [!NOTE]
+> Jika Anda memilih untuk memasang dependensi, BikinProject akan memasang dependensi yang diperlukan untuk Anda. Harap tunggu hingga penginstalan selesai.
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+```
+  ┌   create-bikinproject-app
+  │
+  ◇  Where should we create your project?
+  │  ./your-project
+  │
+  ◇  Pick a project type within "./your-project"
+  │  Laravel + Filament
+  │
+  ◇  ⏳ Creating project...
+  │
+  ◇  ✅ Project created successfully!
+  │
+  ◇  Do you want to install dependencies for ./your-project?
+  │  ● Yes / ○ No
+  └  # Pilih Yes atau No dengan menggunakan tombol panah
+```
 
-## License
+6. **Pilih package manager**: Pilih package manager untuk menginstal dependensi.
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+```
+  ┌   create-bikinproject-app
+  │
+  ◇  Where should we create your project?
+  │  ./your-project
+  │
+  ◇  Pick a project type within "./your-project"
+  │  Laravel + Filament
+  │
+  ◇  ⏳ Creating project...
+  │
+  ◇  ✅ Project created successfully!
+  │
+  ◇  Do you want to install dependencies for ./your-project?
+  │  Yes
+  │
+  ◇  Pick a package manager to install dependencies for "./your-project"
+  │  ● NPM
+  │  ○ Yarn
+  │  ○ Bun
+  │  ○ PNPM
+  └  # Pilih package manager dengan menggunakan tombol panah
+```
+
+7. **Tunggu BikinProject untuk install depedensi**: Tunggu BikinProject untuk menginstal dependensi yang diperlukan untuk Anda.
+
+```
+  ┌   create-bikinproject-app
+  │
+  ◇  Where should we create your project?
+  │  ./your-project
+  │
+  ◇  Pick a project type within "./your-project"
+  │  Laravel + Filament
+  │
+  ◇  ⏳ Creating project...
+  │
+  ◇  ✅ Project created successfully!
+  │
+  ◇  Do you want to install dependencies for ./your-project?
+  │  Yes
+  │
+  ◇  Pick a package manager to install dependencies for "./your-project"
+  │  PNPM
+  │
+  ◇  📦 Installing dependencies using pnpm...
+  │
+  ◇  ✅ Dependencies installed successfully!
+  │
+  ◇  🎉 Project ready to use!
+  │
+  ◇  Next steps. ───────────────╮
+  │                             │
+  │  cd ./your-project          │
+  │  pnpm run dev               │
+  │                             │
+  │  Happy Coding!              │
+  │                             │
+  ├─────────────────────────────╯
+  │
+  └  Have a Problems? Report to https://github.com/nuflakbrr/bikinproject/issues
+```
+
+8. **Mulai Membangun Proyek Anda**: Setelah BikinProject menghasilkan `starter project`, selanjutnya membangun proyek Anda.
+
+### Manual
+
+#### Linux / Mac
+
+Anda dapat mengikuti langkah-langkah di bawah ini untuk menginstal starter kit atau Anda cukup menjalankan `bash install.sh` untuk menginstalnya.
+
+-   Klona repositori ini
+
+```bash
+$ git clone https://github.com/nuflakbrr/fullstack-template.git <name_of_project>
+```
+
+-   Jalankan perintah berikut untuk menginstal dependensi
+
+```bash
+$ composer install
+```
+
+-   Jalankan perintah berikut untuk instalasi starter kit
+
+```bash
+$ php artisan bikinproject:install
+```
+
+#### Windows
+
+-   Klona repositori ini
+
+```bash
+$ git clone https://github.com/nuflakbrr/fullstack-template.git <name_of_project>
+```
+
+-   Jalankan perintah berikut untuk menginstal dependensi
+
+```bash
+$ composer install --ignore-platform-reqs
+```
+
+-   Jalankan perintah berikut untuk instalasi starter kit
+
+```bash
+$ php artisan bikinproject:install
+```
+
+Berikut ini adalah inti dari skrip `install.sh`:
+
+-   Menginstal paket Composer yang dibutuhkan (`composer install`)
+-   Menjalankan skrip artisan khusus (`php artisan bikinproject:install`)
+-   Menyiapkan lingkungan (file .env)
+-   Menginstal dependensi Node.js
+-   Membuat kunci aplikasi
+-   Menawarkan untuk menjalankan migrasi basis data
+-   Mengonfigurasi nama dan URL proyek
+-   Menawarkan untuk menghapus file instalasi
+-   Memberikan petunjuk untuk memulai server pengembangan lokal
+
+## Tentang Laravel
+
+Laravel adalah kerangka kerja aplikasi web dengan sintaksis yang ekspresif dan elegan. Kami percaya bahwa pengembangan harus menjadi pengalaman yang menyenangkan dan kreatif agar benar-benar memuaskan. Laravel menghilangkan kesulitan dalam pengembangan dengan memudahkan tugas-tugas umum yang digunakan dalam banyak proyek web, seperti:
+
+-   [Mesin perutean yang sederhana dan cepat](https://laravel.com/docs/routing).
+-   [Kontainer injeksi dependensi yang kuat](https://laravel.com/docs/container).
+-   Beberapa back-end untuk penyimpanan [session](https://laravel.com/docs/session) dan [cache](https://laravel.com/docs/cache).
+-   [ORM basis data](https://laravel.com/docs/eloquent) yang ekspresif dan intuitif.
+-   [Migrasi skema](https://laravel.com/docs/migrations) yang tidak bergantung pada basis data.
+-   [Pemrosesan pekerjaan latar belakang yang tangguh](https://laravel.com/docs/queues).
+-   [Penyiaran peristiwa secara real-time](https://laravel.com/docs/broadcasting).
+
+Laravel mudah diakses, canggih, dan menyediakan alat yang dibutuhkan untuk aplikasi yang besar dan tangguh.
+
+## Belajar Laravel
+
+Laravel memiliki [dokumentasi](https://laravel.com/docs) dan pustaka tutorial video terlengkap dan menyeluruh dari semua kerangka kerja aplikasi web modern, sehingga memudahkan Anda untuk memulai menggunakan kerangka kerja tersebut.
+
+Anda juga dapat mencoba [Laravel Bootcamp](https://bootcamp.laravel.com), tempat Anda akan dipandu untuk membangun aplikasi Laravel modern dari awal.
+
+Jika Anda tidak ingin membaca, [Laracasts](https://laracasts.com) dapat membantu. Laracasts berisi ribuan tutorial video tentang berbagai topik termasuk Laravel, PHP modern, pengujian unit, dan JavaScript. Tingkatkan keterampilan Anda dengan mempelajari pustaka video kami yang lengkap.
+
+## Author Templat Ini
+
+Nama kontributor dan info kontak,
+
+Naufal Akbar Nugroho  
+[Website](https://nuflakbrr.github.io)
+[Github](https://github.com/nuflakbrr)
+[Instagram](https://instagram.com/kbrnugroho)
