@@ -10,5 +10,5 @@ fi
 echo "⌛ Installing Composer dependencies..."
 composer install -W
 
-# Run the TTN Compro installation
+# Run the BikinProject: Laravel + Filament installation
 php artisan bikinproject:install
