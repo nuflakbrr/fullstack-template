@@ -187,7 +187,7 @@ Anda dapat mengikuti langkah-langkah di bawah ini untuk menginstal starter kit a
 -   Klona repositori ini
 
 ```bash
-$ git clone https://github.com/nuflakbrr/fullstack-template.git <name_of_project>
+$ npx degit nuflakbrr/fullstack-template#laravel-filament <name_of_project>
 ```
 
 -   Jalankan perintah berikut untuk menginstal dependensi
@@ -207,7 +207,7 @@ $ php artisan bikinproject:install
 -   Klona repositori ini
 
 ```bash
-$ git clone https://github.com/nuflakbrr/fullstack-template.git <name_of_project>
+$ npx degit nuflakbrr/fullstack-template#laravel-filament <name_of_project>
 ```
 
 -   Jalankan perintah berikut untuk menginstal dependensi
